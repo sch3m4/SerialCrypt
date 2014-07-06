@@ -1,0 +1,10 @@
+#!/usr/bin/env python
+#
+#
+
+DEVICE_UTOKEN_ID='USB VID:PID=2341:8037'
+DEVICE_DEBUG_ID='USB VID:PID=2341:0010 SNR=852353331353513021A2'
+DEVICE_CRYPT_ID='USB VID:PID=2341:0010 SNR=85235333135351600170'
+
+if __name__ == "__main__":
+	print "This script is a Python module"

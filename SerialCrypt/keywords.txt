@@ -1,0 +1,27 @@
+#######################################
+# Syntax Coloring Map
+####################################### 
+# Class
+#######################################
+
+SerialCrypt	KEYWORD3
+
+#######################################
+# Methods and Functions 
+#######################################	
+
+begin		KEYWORD2
+SetSerial	KEYWORD2
+SetSerialDebug	KEYWORD2
+SetCryptKey	KEYWORD2
+SetHMACKey	KEYWORD2
+SetOKPin	KEYWORD2
+SetErrorPin	KEYWORD2
+RC4		KEYWORD2
+sendCrypt	KEYWORD2
+recvCrypt	KEYWORD2
+PBKDF2		KEYWORD2
+
+#######################################
+# Constants as LITERAL1
+#######################################
