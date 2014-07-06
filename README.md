@@ -31,7 +31,9 @@ Sample Output
 =============
 
 ~$ ./crypt.py 
+
 Sending signal to dev
+
 Receiving dev's nonce
 
     ENCODED: zGUfyFfcVPWXBA1R4NSE5Nz1PbQ2Wld42KgE3cVNlyA=
@@ -71,9 +73,13 @@ Sending RND1 to DEV
 
 
 Synchronizing with DEV
+
 Upstream Key: 169dd83797d8c9c7a0ae7ab08e1ce1181712b4e1d7a185d8d26af52dc6124814
+
 Downstream Key: 33031ddb78a422d03ab52cc4c5436d709baae7d330e9b0dcde439c94aa6dc90e
+
 Generating DH Parameters
+
 Sending DH Generator
 
     PLAIN: 0287123493585390998388541026250001188019
@@ -83,6 +89,7 @@ Sending DH Generator
     ENCODED: HsWq407wfR4RFrAnyyyBNDGJKN9i4CSvmmR25y0k56mvY3YxiHYivw==
 
 Synchronizing with DEV
+
 Sending DH Prime
 
     PLAIN: 0211016453868687456684434399545730968537
@@ -100,6 +107,7 @@ Receiveing DEV Public Key
     PLAIN: 0102274502095803754543432122507539135286
 
 DEV Public Key: 0102274502095803754543432122507539135286
+
 Sending Public Key
 
     PLAIN: 06443774212846604463920511734970083419
@@ -110,10 +118,15 @@ Sending Public Key
 
 
 Calculating Session Key
+
 Session Key:  0108400163723685166246565551220771384109
+
 Upstream Session Key: c6a9f019129f20c5a3f2ec025aca937a0d8f049c542bb13b8ac07eeea4d1af6b
+
 Downstream Session Key: e33735f5fde3cbd239e9ba7611951f12813757aeb363843f86e91757c8ae2e71
+
 ** Encrypted channel established **
+
 Sending string: "this is my test string"
 
     PLAIN: 74686973206973206d79207465737420737472696e67
@@ -123,6 +136,7 @@ Sending string: "this is my test string"
     ENCODED: 9/wWrYE285UKdwXVkjJE6lwzUR2QBIwDp9MQkt1pmkoMz5XQbFRnvguS
 
 Receiving data...
+
 Expected data: "this is my test string"
 
     ENCODED: kgnRJeYzSx2MsESpK2Qxh9PqVTHZ6uvIFXseiHVTVDhPH8steahPYfd/
