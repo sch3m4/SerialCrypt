@@ -784,7 +784,6 @@ void SerialCrypt::EstablishDH(BigNumber privKey )
 	}
 #endif
 
-  /* this is magic , it is the only point where we have to decrease the hmac length :-/ */
   PBKDF2 ( buffer , len, hmac_key , hmac_klen , session_key [ RANDOM_CLI ] , RANDOM_LENGTH , PBKDF2_ITERATIONS );
   PBKDF2 ( buffer , len, hmac_key , hmac_klen, session_key [ RANDOM_DEV ] , RANDOM_LENGTH , PBKDF2_ITERATIONS );
 
